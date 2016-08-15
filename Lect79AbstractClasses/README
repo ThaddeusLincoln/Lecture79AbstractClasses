@@ -40,3 +40,18 @@ and traverse() methods.
 
 Binary Search Tree, the way we add items respect a given order which allows search to be optimized.
 
+Recursion is not always the best way, we have to take into consideration the depth of the recursion, i.e, how many
+times the method is calling itself. For instance, a well balanced binary tree with billions of records (nodes) has
+a recursion depth of 63.
+
+Example : if a huge data base had 9,000,000,000,000,000,000 nodes would only take 53 sort of levels. A depth
+of 63 to go right through all those records, but with a similarity sized LinkedList, it will not start to
+return until all the nodes have been printed, so it'll have to go through all the entire list and the 
+stack can overflow. So implement traverse() recursively for a LinkedList is no a good idea.
+
+Binary trees are complicated, deleting an item in a binary search tree is complicated. Even a lot
+of data base management systems that use binary search trees, they don't actually deleter the records
+right away but they often flagged the records as "being deleted", therefore they're ignored in the searches
+and queries. And the actual deletion of the actual data only occurs perhaps during out-of-hours 
+and maintenance procedures, re-compacting or re-indexing the database.   
+
