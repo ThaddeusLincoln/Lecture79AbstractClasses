@@ -10,4 +10,8 @@ ArrayList<?> or any other.
 
 Abstract classes : provide methods, but do not provide an implementation of it. One of the big differences
 with interfaces is that not all methods need to be abstract.
+
+As not all birds can fly, it's not a good idea put a fly() method in Bird class. Instead it'll be better to
+create an Abstract Bird class that extends Animal and has an abstract fly method that each class will
+implement as they're able to.
  
