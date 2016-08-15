@@ -15,3 +15,13 @@ As not all birds can fly, it's not a good idea put a fly() method in Bird class.
 create an Abstract Bird class that extends Animal and has an abstract fly method that each class will
 implement as they're able to.
  
+ Relationships:
+
+1 - "is a"  : inheritance
+2 - "has a" : composition
+3 - "can"   : interface
+
+In the design we have so far, we run into a problem an is that fly is not inherit to Birds, as bats
+can fly an bats are mammals. So a solution would be create a ICanFly interface, to be implement by
+any animal that has this capability. Using an "I" is a naming convention used widely in C#, 
+but not mandatory neither in C# nor Java.

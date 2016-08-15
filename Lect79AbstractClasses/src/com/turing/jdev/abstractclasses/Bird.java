@@ -1,6 +1,6 @@
 package com.turing.jdev.abstractclasses;
 
-public abstract class Bird extends Animal {
+public abstract class Bird extends Animal implements ICanFly {
 
 	public Bird(String name) {
 		super(name);
@@ -15,9 +15,14 @@ public abstract class Bird extends Animal {
 	public void breathe() {
 		System.out.println(getName() + " breating");
 	}
+
+	@Override
+	public void fly() {
+		System.out.println(getName() + " is flapping its wings");
+	}
 	
-	// ABSTRACT METHOD
-	public abstract void fly();
+	
+	
 
 	
 }
