@@ -25,3 +25,14 @@ In the design we have so far, we run into a problem an is that fly is not inheri
 can fly an bats are mammals. So a solution would be create a ICanFly interface, to be implement by
 any animal that has this capability. Using an "I" is a naming convention used widely in C#, 
 but not mandatory neither in C# nor Java.
+
+Abstract class vs. Interfaces:
+
+Abstract class : can have member variables (this can't be done in an interface)
+Interfaces can have variables, but they are all public static final variables (essentially a CONSTANT).
+And they do have to be static, because non-static variables need of an instance, 
+and you can't instantiate an interface. Interfaces also can't have constructors, but abstract classes can.
+All methods in an interface are automatically public, whereas the methods of an abstract class can have any visibility. 
+Abstract classes can have defined methods (those which are not abstract).
+
+
