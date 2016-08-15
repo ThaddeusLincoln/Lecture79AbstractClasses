@@ -1,0 +1,13 @@
+Abstraction : is when we specify the required functionality for something without specifying the how.
+We're focusing on what needs to be done, not on the how it's to be done.
+
+Interfaces : are purely or 100% abstract, which do not implement any aspect of the implementation which 
+has to take place in the actual classes.
+
+When putting a List to be used from our Interface, it's better to actually use a List<?> which is an Interface,
+and  gives the possibility of using any class that implements it. This wouldn't be possible if we use, 
+ArrayList<?> or any other.
+
+Abstract classes : provide methods, but do not provide an implementation of it. One of the big differences
+with interfaces is that not all methods need to be abstract.
+ 
