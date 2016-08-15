@@ -38,5 +38,5 @@ Abstract classes can have defined methods (those which are not abstract).
 Search Tree: is very similar to a LinkedList, the differences are mainly in the implementations of addItem, removeItem(), 
 and traverse() methods.
 
-Binary Search Tree in this case: 
+Binary Search Tree, the way we add items respect a given order which allows search to be optimized.
 
