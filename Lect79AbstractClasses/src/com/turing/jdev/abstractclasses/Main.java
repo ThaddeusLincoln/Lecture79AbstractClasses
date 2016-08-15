@@ -8,9 +8,10 @@ public class Main {
 		dog.eat();
 		dog.breathe();
 		
-		Bird bird = new Bird("Parrot");
-		bird.eat();
-		dog.breathe();
+		Parrot parrot = new Parrot("Australian ringneck");
+		parrot.eat();
+		parrot.breathe();
+		parrot.fly();
 		
 	}
 }
