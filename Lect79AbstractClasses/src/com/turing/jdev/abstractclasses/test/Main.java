@@ -1,4 +1,8 @@
-package com.turing.jdev.abstractclasses;
+package com.turing.jdev.abstractclasses.test;
+
+import com.turing.jdev.abstractclasses.Dog;
+import com.turing.jdev.abstractclasses.Parrot;
+import com.turing.jdev.abstractclasses.Penguin;
 
 public class Main {
 	
