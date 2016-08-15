@@ -13,5 +13,8 @@ public class Main {
 		parrot.breathe();
 		parrot.fly();
 		
+		Penguin skipper = new Penguin("Skipper");
+		skipper.fly();
+		
 	}
 }
